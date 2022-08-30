@@ -122,4 +122,4 @@ Exactly the same as option 1, but there is nothing stopping you thinking ahead, 
 
 # Summary
 
-When I read this article back, it all seems rather straight forward, but unpicking the behaviour and narrowing down the problem statement took some noodling, so I figured it would be good to share (and document before I forget it myself!)
+When I read this article back, it all seems rather straight forward, but unpicking the behaviour and narrowing down the problem statement took some noodling, so I figured it would be good to share (and document before I forget it myself!)-
