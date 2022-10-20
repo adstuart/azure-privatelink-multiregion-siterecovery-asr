@@ -80,7 +80,7 @@ During the replication, if you sniff the traffic on the source VM, you will see 
 
 # Region Down
 
-Let's imagine the worse, the GREEN region has failed, and you are recovering your Virtual Machines from the Vault in your secondary region. With our config detailed above, this is successful and the VM's get re-inflated in RED.
+Let's imagine the worst, the GREEN region has failed, and you are recovering your Virtual Machines from the Vault in your secondary region. With our config detailed above, this is successful and the VM's get re-inflated in RED.
 
 ![](images/2022-08-30-17-06-57.png)
 
