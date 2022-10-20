@@ -20,7 +20,7 @@ This whitepaper can be considered the condensed focused collateral that supports
 
 ASR has long been one of the most popular services used by customers on Azure, allowing them to cost-efficiently plan for BCDR events including catastrophic scenarios such as "region down". 
 
-With the advent of Azure Private Link over the past 2-3 years, customers naturally asked the question - _Can I use Private Link to reach the components required for ASR?_. In other works, can I send the replication (and other bits and bobs) traffic from Virtual Machines that live  _in my Virtual Network_, to the Azure PaaS components (Cached Storage, Recovery Services fault) that _live outside my Virtual Network) in a more secure way.
+With the advent of Azure Private Link over the past 2-3 years, customers naturally asked the question - _Can I use Private Link to reach the components required for ASR?_. In other works, can I send the replication (and other bits and bobs) traffic from Virtual Machines that live _in_ my Virtual Network_, to the Azure PaaS components (Cached Storage, Recovery Services fault) that live _outside_ my Virtual Network) in a more secure way.
 
 To this end, the ASR product was integrated to use Azure Private Link and the following document was produced as a guide - https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-how-to-enable-replication-private-endpoints
 
