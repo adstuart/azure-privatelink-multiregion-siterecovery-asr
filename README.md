@@ -90,11 +90,11 @@ The considerations with Azure DNS Private Zones get thrown in to focus within th
 
 - [1] Upon re-protect, the **same** FQDN is used for ASR Vault access. (In our case a packet sniff reveals that is _7548582474929277163-asr-pod01-rcm1.cus_.
 
-- [2] Our Virtual Machine that is trying to contact the vault, now hosted in the RED VNet, resolves this FQDN to a Public IP address, why?
+- [2] Our Virtual Machine that is trying to contact the vault, now hosted in the RED VNet, this fails, why?
 
   - Either
 
-[a] **The red Virtual Network is not connected to an Azure DNS Private Zone for privatelink.siterecovery.windowsazure.com**
+[a] **The red Virtual Network is not connected to an Azure DNS Private Zone for privatelink.siterecovery.windowsazure.com** (Thereby returning a public IP address, and failing due to Storage Account firewall access)
 
   - or
 
